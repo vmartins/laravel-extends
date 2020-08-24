@@ -1,0 +1,27 @@
+{
+    "name": "vmartins/laravel-extends",
+    "description": "Laravel Extends",
+    "type": "package",
+    "require": {
+        "laravel/framework": "^7.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vitor Martins",
+            "email": "vmartins@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Vmartins\\LaravelExtends\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vmartins\\LaravelExtends\\App\\Providers\\AppServiceProvider"
+            ]
+        }
+    }
+}
